@@ -1,6 +1,6 @@
 # KCP Protocol Dissector for Wireshark
 
-[日本語版はこちら (Japanese)](README_ja.md)
+[日本語版はこちら (Japanese)](README_ja.md) | [Development Guide](DEVELOPMENT.md)
 
 ## Overview
 
@@ -118,6 +118,17 @@ Command types:
 - Verify the UDP port matches your application
 - Use "Decode As..." to manually assign the protocol
 - Check that packet structure matches KCP format
+
+## For Developers
+
+If you want to create your own Wireshark Lua dissector or modify this one, please refer to the [Development Guide](DEVELOPMENT.md). It contains comprehensive documentation on:
+
+- Wireshark Lua API basics
+- Protocol and field definitions
+- Dissector function implementation
+- Port registration and heuristic detection
+- Debugging techniques
+- Best practices and code examples
 
 ## License
 
